@@ -23,7 +23,7 @@ namespace ProjetoPaulo.Api.Controllers
         [HttpGet]
         public IActionResult All()
         {
-            try
+            try//teste
             {
                 List<Queijo> All = _QueijoaService.BuscarTodosOsQueijos()
                     .ToList();
